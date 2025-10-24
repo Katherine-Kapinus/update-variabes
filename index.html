@@ -4,12 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link href="https://fonts.googleapis.com/css?family=Instrument+Serif:regular,italic&display=swap" rel="stylesheet">
-    <title><!-- name of site --></title>
+    <title>Variables</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/slack.ico" type="image/x-icon">
+    <link rel="icon" href="img/codesandbox.svg" type="image/x-icon">
     <script src="js/script.js" defer></script>
 </head>
 <body>
+    <section class="variables">
+        <h2 class="variables__title">Update CSS Variables with <span class="hl">JS</span></h2>
+        <div class="variables__controls controls">
+            <div class="controls__pair">
+                <label class="controls__lable" for="spacing">Spacing:</label>
+                <input class="controls__input" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+            </div>
+            
+            <div class="controls__pair">
+                <label class="controls__lable" for="blur">Blur:</label>
+                <input class="controls__input" type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+            </div>
+
+            <div class="controls__pair">
+                <label class="controls__lable" for="base">Base Color:</label>
+                <input class="controls__input" type="color" name="bace" value="#ffcc00">
+            </div>
+        </div>
+
+        <div class="variables__image">
+            <img src="img/ingmar-BKIa0ueq7Fo-unsplash.jpg">
+        </div>
+    </section>
     
 </body>
 </html>
