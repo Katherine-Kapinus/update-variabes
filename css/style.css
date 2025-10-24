@@ -104,6 +104,11 @@ body {
   flex-direction: column;
   gap: 1.25rem;
 }
+@media (max-width: 768px) {
+  .variables {
+    padding: 1.25rem;
+  }
+}
 .variables__title {
   font-size: 1.5rem;
   font-weight: 600;
@@ -133,6 +138,14 @@ body {
   -moz-column-gap: 2rem;
        column-gap: 2rem;
   justify-content: center;
+}
+@media (max-width: 768px) {
+  .controls {
+    flex-direction: column;
+    row-gap: 1rem;
+    -moz-column-gap: 0;
+         column-gap: 0;
+  }
 }
 .controls__pair {
   display: flex;
